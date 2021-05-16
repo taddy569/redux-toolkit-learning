@@ -1,12 +1,15 @@
 import React from 'react';
-import { Counter } from './features/counter/Counter';
+
 import './App.css';
+import { Counter } from './features/counter/Counter';
+import { CounterContainer } from "containers";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Counter />
+        {/* <Counter /> */}
+        <CounterContainer />
       </header>
     </div>
   );
